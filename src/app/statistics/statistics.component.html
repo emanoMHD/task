@@ -1,0 +1,75 @@
+<div class="padding-page">
+
+<div class="row">
+
+    <div class="col-md-3">
+        <div class="d-flex">
+
+        <div *ngFor="let item of getArrayImagesForNumber(reports.numberProvidedServices)">
+            <img class="img-style" [src]="item">
+            </div>
+        </div>
+        <p>{{"numberProvidedServices"|translate}}</p>
+    </div>
+    <div class="col-md-3">
+        <div class="d-flex">
+
+            <div *ngFor="let item of getArrayImagesForNumber(reports.numberConsultants)">
+                <img class="img-style" [src]="item">
+                </div>
+            </div>
+            <p>{{"numberConsultants"|translate}}</p>
+    </div>
+    <div class="col-md-3">
+        <div class="d-flex">
+
+            <div *ngFor="let item of getArrayImagesForNumber(reports.numberProjects)">
+                <img class="img-style" [src]="item">
+                </div>
+            </div>
+            <p>{{"numberProjects"|translate}}</p>
+    </div>
+    <div class="col-md-3">
+        <div class="d-flex">
+
+            <div *ngFor="let item of getArrayImagesForNumber(reports.numberOpportunitiesInvested)">
+                <img class="img-style" [src]="item">
+                </div>
+            </div>
+            <p>{{"numberOpportunitiesInvested"|translate}}</p>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="d-flex">
+
+            <div *ngFor="let item of getArrayImagesForNumber(reports.numberVisitors)">
+                <img class="img-style" [src]="item">
+                </div>
+            </div>
+            <p>{{"numberOpportunitiesInvested"|translate}}</p>
+    </div>
+    <div class="col-md-3">
+        <div class="d-flex">
+
+    <div *ngFor="let item of getArrayImagesForNumber(reports.numberAvailableServices)">
+        <img class="img-style" [src]="item">
+        </div></div>
+    
+    <p>{{"numberOpportunitiesInvested"|translate}}</p>
+</div>
+
+    <div class="col-md-3">
+        <div class="d-flex">
+
+            <div *ngFor="let item of getArrayImagesForNumber(reports.volumeExecutedDeals)">
+                <img class="img-style" [src]="item">
+                </div>
+            </div>
+            <p>{{"numberOpportunitiesInvested"|translate}}</p>
+    </div>
+    </div>
+
+    </div>
