@@ -23,7 +23,7 @@ export class StatisticsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-// for get every number from items in the report and convert them to array string
+// for get every number from items in the statistic and convert them to array string
   getArrayImagesForNumber(number: number) {
     var arrayNumbers = number.toString().split('');
 
