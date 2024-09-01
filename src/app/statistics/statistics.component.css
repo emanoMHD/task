@@ -23,3 +23,7 @@ p {
     text-align: center;
     color: #94dfEB
 }
+:lang(ar).d-flex
+{
+    direction: ltr;
+}

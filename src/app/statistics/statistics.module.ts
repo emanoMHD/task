@@ -13,15 +13,7 @@ import { HttpClient } from '@angular/common/http';
   declarations: [StatisticsComponent],
   imports: [
     CommonModule,SharedModule,StatisticsRoutingModule,CoreModule,
-    TranslateModule.forRoot({
-      defaultLanguage: 'ar',
 
-      loader: {
-          provide: TranslateLoader,
-          useFactory: HttpLoaderFactory,
-          deps: [HttpClient]
-      }
-  })
   ],
   providers:[TranslateStore]
 })
