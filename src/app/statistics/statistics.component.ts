@@ -8,7 +8,7 @@ import { StatisticsDto } from '../models/statistics/StatisticsDto';
 })
 export class StatisticsComponent implements OnInit {
 
-  reports = {
+  statistics = {
     numberProvidedServices: 12,
     numberConsultants: 132,
     numberProjects: 34,
